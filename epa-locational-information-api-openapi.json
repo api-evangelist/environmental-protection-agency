@@ -1,0 +1,623 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v1",
+        "title": "EPA Locational information API",
+        "description": "Locational information for EPA-regulated facilities in Envirofacts is cultivated from many sources, including EPA federal program systems, EPA regional offices, and the states.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpiaspub.epa.gov\/enviro\/efservice\/"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "geo_conveyor": {
+                "type": "object",
+                "properties": {
+                    "filler": {
+                        "description": "until we have model",
+                        "type": "string"
+                    }
+                }
+            },
+            "geo_vert_datum_lk": {
+                "type": "object",
+                "properties": {
+                    "filler": {
+                        "description": "until we have model",
+                        "type": "string"
+                    }
+                }
+            },
+            "geo_horiz_datum_lk": {
+                "type": "object",
+                "properties": {
+                    "filler": {
+                        "description": "until we have model",
+                        "type": "string"
+                    }
+                }
+            },
+            "geo_vert_method_lk": {
+                "type": "object",
+                "properties": {
+                    "filler": {
+                        "description": "until we have model",
+                        "type": "string"
+                    }
+                }
+            },
+            "geo_ref_point_lk": {
+                "type": "object",
+                "properties": {
+                    "REF_POINT_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REF_POINT_DESC": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SHAPE": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "geo_sub_type_lk": {
+                "type": "object",
+                "properties": {
+                    "filler": {
+                        "description": "until we have model",
+                        "type": "string"
+                    }
+                }
+            },
+            "geo_source_lk": {
+                "type": "object",
+                "properties": {
+                    "filler": {
+                        "description": "until we have model",
+                        "type": "string"
+                    }
+                }
+            },
+            "geo_geometric_type_lk": {
+                "type": "object",
+                "properties": {
+                    "filler": {
+                        "description": "until we have model",
+                        "type": "string"
+                    }
+                }
+            },
+            "geo_collect_mth_lk": {
+                "type": "object",
+                "properties": {
+                    "filler": {
+                        "description": "until we have model",
+                        "type": ""
+                    },
+                    "COLLECT_DESC": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "COLLECT_MTH_CODE": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "geo_verify_lk": {
+                "type": "object",
+                "properties": {
+                    "filler": {
+                        "description": "until we have model",
+                        "type": "string"
+                    }
+                }
+            },
+            "geo_sub_id_ref": {
+                "type": "object",
+                "properties": {
+                    "filler": {
+                        "description": "until we have model",
+                        "type": "string"
+                    }
+                }
+            },
+            "geo_assign_acc_lk": {
+                "type": "object",
+                "properties": {
+                    "filler": {
+                        "description": "until we have model",
+                        "type": "string"
+                    }
+                }
+            },
+            "mv_geo_facility_point": {
+                "type": "object",
+                "properties": {
+                    "filler": {
+                        "description": "until we have model",
+                        "type": "string"
+                    }
+                }
+            },
+            "frs_facility_site": {
+                "type": "object",
+                "properties": {
+                    "ADDR_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CITY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "COUNTRY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "COUNTY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CREATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DATA_QUALITY_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ENV_JUSTICE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EPA_REGION_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FEDERAL_AGENCY_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FEDERAL_FACILITY_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FIPS_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ICIS_IDENTIFIER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INTEREST_STATUS_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LAST_REPORTED_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LEGISLATIVE_DIST_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOCATION_ADDRESS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOCATION_DESCRIPTION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PARENT_REGISTRY_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "POSTAL_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PRIMARY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PUBLIC_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REFRESH_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REGISTRY_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REVIEW_FLAG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REVIEW_REASON": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SENSITIVE_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SITE_TYPE_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SMALL_BUS_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STAND_ALONE_FLAG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STATE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STATE_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_BASE_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_CITY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_COUNTRY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_COUNTY_FIPS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_COUNTY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_FULL_ADDRESS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_HOUSE_NUMBER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_LOC_ADDRESS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_POSTAL_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_PREFIX": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_STATE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_STREET_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_STYPE_AFTER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_STYPE_BEFORE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_SUFFIX": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUPPLEMENTAL_LOCATION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TRIBAL_LAND_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TRIBAL_LAND_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UPDATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USER_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "filler": {
+                        "description": "until we have model",
+                        "type": "string"
+                    }
+                }
+            },
+            "frs_program_facility": {
+                "type": "object",
+                "properties": {
+                    "ADDR_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CITY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "COUNTRY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "COUNTY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CREATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DATA_QUALITY_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ENV_JUSTICE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EPA_REGION_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FEDERAL_AGENCY_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FEDERAL_FACILITY_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FIPS_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HUC_CODE_12": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HUC_CODE_8": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LAST_REPORTED_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LEGISLATIVE_DIST_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LINK_MTHD": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOCATION_ADDRESS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOCATION_DESCRIPTION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PARENT_PGM_SYS_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PGM_SYS_ACRNM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PGM_SYS_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "POSTAL_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PRIMARY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PUBLIC_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REFRESH_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REGISTRY_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SENSITIVE_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SITE_TYPE_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SMALL_BUS_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_OF_DATA": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STAND_ALONE_FLAG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STATE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STATE_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_BASE_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_CITY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_COUNTRY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_COUNTY_FIPS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_COUNTY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_FULL_ADDRESS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_HOUSE_NUMBER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_LOC_ADDRESS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_POSTAL_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_PREFIX": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_STATE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_STREET_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_STYPE_AFTER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_STYPE_BEFORE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_SUFFIX": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUPPLEMENTAL_LOCATION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TRIBAL_LAND_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TRIBAL_LAND_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UPDATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USER_COMMENT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USER_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "filler": {
+                        "description": "until we have model",
+                        "type": "string"
+                    }
+                }
+            },
+            "geo_facility_point": {
+                "type": "object",
+                "properties": {
+                    "filler": {
+                        "description": "until we have model",
+                        "type": "string"
+                    }
+                }
+            },
+            "geo_php_facility_coordinate": {
+                "type": "object",
+                "properties": {
+                    "filler": {
+                        "description": "until we have model",
+                        "type": "string"
+                    }
+                }
+            },
+            "v_geo_pgm_coordinate_all": {
+                "type": "object",
+                "properties": {
+                    "filler": {
+                        "description": "until we have model",
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
