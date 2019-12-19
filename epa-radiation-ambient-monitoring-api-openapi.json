@@ -1,0 +1,511 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v1",
+        "title": "EPA Radiation Ambient Monitoring API",
+        "description": "Formerly, Environmental Radiation Ambient Monitoring System (ERAMS), provides data from a national network of monitoring stations that collect air, precipitation, drinking water, and milk samples for analysis of radioactivity.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpiaspub.epa.gov\/enviro\/efservice\/"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "erm_result": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ANALYTE_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ANA_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CSU": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CSU_IN_SI": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MDC": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MDC_IN_SI": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RESULT_AMOUNT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RESULT_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RESULT_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RESULT_IN_SI": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RESULT_UNIT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SI_UNIT": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "erm_analysis": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ANA_COMMENT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ANA_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ANA_PROC_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ANA_SIZE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ANA_SIZE_2": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ANA_UNIT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ANA_UNIT_2": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SAMP_NUM": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "erm_count": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ANA_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DET_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DURATION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RUN_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RUN_START": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "erm_sample": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CLIENT_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "COLLECT_END": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "COLLECT_START": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOC_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MAT_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PROJ_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SAMP_COMMENT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SAMP_DESC": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SAMP_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SAMP_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SAMP_SIZE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SAMP_UNIT": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "erm_matrix": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MAT_DESC": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MAT_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MAT_NUM": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "erm_location": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CITY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOC_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STATE_ABBR": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STATION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SURFACE_WATER_SOURCE": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "erm_project": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PROJ_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PROJ_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PROJ_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STUDY_NUM": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "erm_study": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STUDY_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STUDY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STUDY_NUM": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "erm_analyte": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ANALYTE_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ANALYTE_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ANA_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CRS_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HALF_LIFE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HALF_LIFE_TIME_UNIT": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "erm_ana_proc": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ANA_PROC_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ANA_PROC_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ANA_PROC_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PROC_TYPE_ID": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "erm_det_type": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DET_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DET_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DET_TYPE_ID": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "bgm_onsite_treatment": {
+                "type": "object",
+                "properties": {
+                    "ACTIVITY_LOCATION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HANDLER_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HZ_PG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LAST_CHANGE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MANAGED_TONS_CALC": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MANAGEMENT_METHOD": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MANAGEMENT_METHOD_OWNER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SEQ_NUMBER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SYS_PG_NUM_SEQ": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SYS_TDR_QTY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USERID": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "lcr_sample": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EPA_REGION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PRIMACY_AGENCY_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PWSID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RECONCILIATION_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SAMPLE_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SAMPLING_END_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SAMPLING_START_DATE": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "lcr_sample_result": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONTAMINANT_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EPA_REGION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PRIMACY_AGENCY_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PWSID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RESULT_SIGN_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SAMPLE_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SAMPLE_MEASURE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SAR_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UNIT_OF_MEASURE": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            }
+        }
+    }
+}
