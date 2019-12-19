@@ -1,0 +1,825 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v1",
+        "title": "EPA Biennial Report API",
+        "description": "The Biennial Report is a national system that collects data on the generation, management, and minimization of hazardous waste.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpiaspub.epa.gov\/enviro\/efservice\/"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "breport_cycle": {
+                "type": "object",
+                "properties": {
+                    "LAST_CHANGE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USERID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "YEAR": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "rcr_hhandler": {
+                "type": "object",
+                "properties": {
+                    "ACCESSIBILITY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ACKNOWLEDGE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ACKNOWLEDGE_FLAG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ACTIVITY_LOCATION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CDX_TRANSACTION_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONTACT_CITY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONTACT_COUNTRY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONTACT_EMAIL_ADDRESS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONTACT_FAX": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONTACT_FIRST_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONTACT_LAST_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONTACT_MIDDLE_INITIAL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONTACT_PHONE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONTACT_PHONE_EXT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONTACT_STATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONTACT_STREET1": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONTACT_STREET2": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONTACT_STREET_NO": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONTACT_TITLE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONTACT_ZIP": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "COUNTY_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FED_WASTE_GENERATOR": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FED_WASTE_GENERATOR_OWNER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FURNACE_EXEMPTION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HANDLER_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HANDLER_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "IMPORTER_ACTIVITY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INCLUDE_IN_NATIONAL_REPORT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LAND_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOCATION_CITY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOCATION_STATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOCATION_STREET1": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOCATION_STREET2": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOCATION_STREET_NO": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOCATION_ZIP": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MAIL_CITY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MAIL_COUNTRY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MAIL_STATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MAIL_STREET1": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MAIL_STREET2": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MAIL_STREET_NO": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MAIL_ZIP": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MIXED_WASTE_GENERATOR": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NON_NOTIFIER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "OFF_SITE_RECEIPT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ONSITE_BURNER_EXEMPTION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RECEIVE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RECYCLER_ACTIVITY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REPORT_CYCLE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SEQ_NUMBER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SHORT_TERM_GENERATOR": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STATE_DISTRICT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STATE_WASTE_GENERATOR": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STATE_WASTE_GENERATOR_OWNER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUBPART_K_COLLEGE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUBPART_K_HOSPITAL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUBPART_K_NONPROFIT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUBPART_K_WITHDRAWAL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TRANSFER_FACILITY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TRANSPORTER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TSD_ACTIVITY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UNDERGROUND_INJECTION_ACTIVITY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UNIVERSAL_WASTE_DEST_FACILITY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USED_OIL_BURNER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USED_OIL_MARKET_BURNER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USED_OIL_PROCESSOR": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USED_OIL_REFINER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USED_OIL_SPEC_MARKETER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USED_OIL_TRANSFER_FACILITY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USED_OIL_TRANSPORTER": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "rcr_bgm_basic": {
+                "type": "object",
+                "properties": {
+                    "ACTIVITY_LOCATION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DENSITY_UNIT_OF_MEASURE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DENSITY_UOM_OWNER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DESCRIPTION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FORM_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FORM_CODE_OWNER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "GENERATION_TONS_CALC": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "GEN_QTY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HANDLER_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HZ_PG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INCLUDE_IN_NATIONAL_REPORT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LAST_CHANGE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MANAGEMENT_METHOD": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MANAGEMENT_METHOD_OWNER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NOTES": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RADIOACTIVE_MIX": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RADIOACTIVE_OWNER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REPORT_CYCLE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SEQ_NUMBER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_CODE_OWNER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UNIT_OF_MEASURE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UOM_OWNER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USERID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "WST_DENSITY": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "bwr_basic": {
+                "type": "object",
+                "properties": {
+                    "ACTIVITY_LOCATION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DENSITY_UNIT_OF_MEASURE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DENSITY_UOM_OWNER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DESCRIPTION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FORM_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FORM_CODE_OWNER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HANDLER_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HZ_PG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INCLUDE_IN_NATIONAL_REPORT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "IO_TDR_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "IO_TDR_QTY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LAST_CHANGE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MANAGEMENT_METHOD": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MANAGEMENT_METHOD_OWNER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NOTES": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RADIOACTIVE_MIX": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RADIOACTIVE_OWNER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RECEIVED_TONS_CALC": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REPORT_CYCLE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SEQ_NUMBER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUB_PG_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UNIT_OF_MEASURE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UOM_OWNER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USERID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "WST_DENSITY": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "bgm_onsite_shipment": {
+                "type": "object",
+                "properties": {
+                    "ACTIVITY_LOCATION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HANDLER_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HZ_PG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LAST_CHANGE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MANAGED_TONS_CALC": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MANAGEMENT_METHOD": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MANAGEMENT_METHOD_OWNER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SEQ_NUMBER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SYS_PG_NUM_SEQ": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SYS_TDR_QTY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USERID": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "rcr_lu_management_method": {
+                "type": "object",
+                "properties": {
+                    "Filler": {
+                        "description": "This did not work.",
+                        "type": "string"
+                    }
+                }
+            },
+            "bgm_offsite_shipment": {
+                "type": "object",
+                "properties": {
+                    "ACTIVITY_LOCATION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HANDLER_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HZ_PG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "IO_PG_NUM_SEQ": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "IO_TDR_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "IO_TDR_QTY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LAST_CHANGE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MANAGEMENT_METHOD": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MANAGEMENT_METHOD_OWNER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SEQ_NUMBER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SHIPPED_TONS_CALC": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USERID": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "bgm_waste_code": {
+                "type": "object",
+                "properties": {
+                    "ACTIVITY_LOCATION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HANDLER_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HZ_PG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LAST_CHANGE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SEQ_NUMBER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USERID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "WASTE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "WASTE_CODE_OWNER": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "rcr_lu_waste_code": {
+                "type": "object",
+                "properties": {
+                    "ACTIVE_STATUS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "BR_LOAD_ACTIVE_STATUS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CODE_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "OWNER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "WASTE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "WASTE_CODE_DESC": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "rcr_bwr_waste_code": {
+                "type": "object",
+                "properties": {
+                    "ACTIVITY_LOCATION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HANDLER_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HZ_PG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SEQ_NUMBER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUB_PAGE_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "WASTE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "WASTE_CODE_OWNER": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "rcr_lu_source_code2": {
+                "type": "object",
+                "properties": {
+                    "ACTIVE_STATUS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "OWNER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_CODE_DESC": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_CODE_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USAGE": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "rcr_lu_form_code2": {
+                "type": "object",
+                "properties": {
+                    "ACTIVE_STATUS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FORM_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FORM_CODE_DESC": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FORM_CODE_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "OWNER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USAGE": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            }
+        }
+    }
+}
