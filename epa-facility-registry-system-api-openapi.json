@@ -1,0 +1,1305 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v1",
+        "title": "EPA Facility Registry System API",
+        "description": "The Facility Registry System provides facility identification information via facility linkages across several program systems.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpiaspub.epa.gov\/enviro\/efservice\/"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "frs_contact": {
+                "type": "object",
+                "properties": {
+                    "ALTERNATE_PHONE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONTACT_UIN": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CREATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DIVISION_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EMAIL_ADDRESS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FAX_NUMBER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FULL_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LAST_REPORTED_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PHONE_NUMBER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PUBLIC_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SENSITIVE_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_OF_DATA": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_FULL_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TITLE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UPDATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USER_ID": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "frs_mailing_address": {
+                "type": "object",
+                "properties": {
+                    "CITY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "COUNTRY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CREATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LAST_REPORTED_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MAILING_ADDRESS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MAIL_UIN": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "POSTAL_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PUBLIC_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SENSITIVE_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_OF_DATA": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STATE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STATE_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_CITY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_MAIL_ADDRESS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_SUPPLEMENTAL_ADDRESS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUPPLEMENTAL_ADDRESS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UPDATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USER_ID": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "frs_organization": {
+                "type": "object",
+                "properties": {
+                    "ALTERNATE_PHONE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CREATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DIVISION_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DUNS_NUMBER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EIN": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EMAIL_ADDRESS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FAX_NUMBER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LAST_REPORTED_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ORG_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ORG_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ORG_UIN": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PHONE_NUMBER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PUBLIC_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SENSITIVE_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_OF_DATA": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STATE_BUSINESS_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_ORG_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UPDATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USER_ID": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "frs_code_description": {
+                "type": "object",
+                "properties": {
+                    "CODE_DESCRIPTION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CODE_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CODE_VALUE": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "frs_tribal_entity_ref": {
+                "type": "object",
+                "properties": {
+                    "FEDERAL_REGISTER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ORGANIZATION_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TRIBAL_ENTITY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TRIBAL_LAND_R_CODE": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "frs_tribal_land_ref": {
+                "type": "object",
+                "properties": {
+                    "TRIBAL_LAND_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TRIBAL_LAND_R_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USBC_TRIBAL_LAND_CODE": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "frs_agency_ref": {
+                "type": "object",
+                "properties": {
+                    "FEDERAL_AGENCY_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FEDERAL_AGENCY_NAME": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "frs_facility_site": {
+                "type": "object",
+                "properties": {
+                    "ADDR_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CITY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "COUNTRY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "COUNTY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CREATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DATA_QUALITY_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ENV_JUSTICE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EPA_REGION_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FEDERAL_AGENCY_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FEDERAL_FACILITY_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FIPS_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ICIS_IDENTIFIER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INTEREST_STATUS_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LAST_REPORTED_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LEGISLATIVE_DIST_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOCATION_ADDRESS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOCATION_DESCRIPTION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PARENT_REGISTRY_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "POSTAL_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PRIMARY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PUBLIC_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REFRESH_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REGISTRY_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REVIEW_FLAG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REVIEW_REASON": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SENSITIVE_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SITE_TYPE_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SMALL_BUS_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STAND_ALONE_FLAG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STATE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STATE_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_BASE_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_CITY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_COUNTRY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_COUNTY_FIPS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_COUNTY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_FULL_ADDRESS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_HOUSE_NUMBER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_LOC_ADDRESS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_POSTAL_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_PREFIX": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_STATE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_STREET_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_STYPE_AFTER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_STYPE_BEFORE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_SUFFIX": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUPPLEMENTAL_LOCATION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TRIBAL_LAND_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TRIBAL_LAND_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UPDATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USER_ID": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "frs_alt_name": {
+                "type": "object",
+                "properties": {
+                    "ALTERNATIVE_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ALTERNATIVE_NAME_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CREATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LAST_REPORTED_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PGM_SYS_ACRNM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PGM_SYS_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PUBLIC_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REGISTRY_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SENSITIVE_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_OF_DATA": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_ALT_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UPDATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USER_ID": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "frs_program_facility": {
+                "type": "object",
+                "properties": {
+                    "ADDR_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CITY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "COUNTRY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "COUNTY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CREATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DATA_QUALITY_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ENV_JUSTICE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EPA_REGION_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FEDERAL_AGENCY_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FEDERAL_FACILITY_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FIPS_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HUC_CODE_12": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HUC_CODE_8": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LAST_REPORTED_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LEGISLATIVE_DIST_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LINK_MTHD": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOCATION_ADDRESS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOCATION_DESCRIPTION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PARENT_PGM_SYS_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PGM_SYS_ACRNM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PGM_SYS_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "POSTAL_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PRIMARY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PUBLIC_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REFRESH_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REGISTRY_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SENSITIVE_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SITE_TYPE_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SMALL_BUS_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_OF_DATA": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STAND_ALONE_FLAG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STATE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STATE_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_BASE_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_CITY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_COUNTRY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_COUNTY_FIPS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_COUNTY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_FULL_ADDRESS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_HOUSE_NUMBER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_LOC_ADDRESS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_POSTAL_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_PREFIX": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_STATE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_STREET_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_STYPE_AFTER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_STYPE_BEFORE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STD_SUFFIX": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUPPLEMENTAL_LOCATION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TRIBAL_LAND_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TRIBAL_LAND_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UPDATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USER_COMMENT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USER_ID": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "frs_system_ref": {
+                "type": "object",
+                "properties": {
+                    "CREATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FED_STATE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PGM_SYS_ACRNM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PGM_SYS_DESC": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PGM_SYS_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PUBLIC_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UPDATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "frs_affiliation": {
+                "type": "object",
+                "properties": {
+                    "AFFILIATION_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "AFFILIATION_UIN": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONTACT_UIN": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CREATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "END_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LAST_REPORTED_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MAIL_UIN": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ORG_UIN": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PGM_SYS_ACRNM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PGM_SYS_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PUBLIC_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REGISTRY_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SENSITIVE_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_OF_DATA": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "START_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUP_INTEREST_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UPDATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USER_ID": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "frs_naics": {
+                "type": "object",
+                "properties": {
+                    "CREATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LAST_REPORTED_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NAICS_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NAICS_UIN": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PGM_SYS_ACRNM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PGM_SYS_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PRIMARY_INDICATOR": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PUBLIC_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SENSITIVE_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_OF_DATA": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUP_INTEREST_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UPDATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USER_ID": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "frs_sic": {
+                "type": "object",
+                "properties": {
+                    "CREATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LAST_REPORTED_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PGM_SYS_ACRNM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PGM_SYS_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PRIMARY_INDICATOR": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PUBLIC_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SENSITIVE_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SIC_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SIC_UIN": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_OF_DATA": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUP_INTEREST_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UPDATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USER_ID": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "frs_supplemental_interest": {
+                "type": "object",
+                "properties": {
+                    "CREATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "END_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "END_DATE_QUALIFIER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LAST_REPORTED_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PGM_SYS_ACRNM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PGM_SYS_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PUBLIC_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REPORTED_SUP_INTEREST_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SENSITIVE_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_OF_DATA": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "START_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "START_DATE_QUALIFIER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUP_INTEREST_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUP_INTEREST_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUP_PGM_SYS_ACRNM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUP_PGM_SYS_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UPDATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USER_ID": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "frs_alternative_id": {
+                "type": "object",
+                "properties": {
+                    "ALTERNATIVE_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ALTERNATIVE_ID_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CREATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FIPS_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LAST_REPORTED_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PGM_SYS_ACRNM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PGM_SYS_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PUBLIC_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SENSITIVE_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_OF_DATA": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USER_ID": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "frs_interest": {
+                "type": "object",
+                "properties": {
+                    "ACTIVE_STATUS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CREATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "END_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "END_DATE_QUALIFIER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FED_STATE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INTEREST_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LAST_REPORTED_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PGM_SYS_ACRNM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PGM_SYS_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PUBLIC_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SENSITIVE_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_OF_DATA": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "START_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "START_DATE_QUALIFIER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UPDATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USER_ID": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "frs_interest_ref": {
+                "type": "object",
+                "properties": {
+                    "CREATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INTEREST_DESC": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INTEREST_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PROGRAM_CATEGORY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PROGRAM_CATEGORY_DESC": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PUBLIC_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "QUERY_FLAG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UPDATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "aa_cems_details": {
+                "type": "object",
+                "properties": {
+                    "filler": {
+                        "description": "until we have model",
+                        "type": "string"
+                    }
+                }
+            },
+            "g_info": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CO2_CONSUMED_METHOD": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CO2_CONSUMED_OTHER_METHOD": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FACILITY_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REPORTING_YEAR": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UREA_PRODUCED_METHOD": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UREA_PRODUCED_OTHER_METHOD": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            }
+        }
+    }
+}
