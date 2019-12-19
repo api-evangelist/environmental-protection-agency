@@ -1,0 +1,346 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v1",
+        "title": "EPA Radiation Information Database API",
+        "description": "The Radiation Information Database provides information aobut certain facilities that EPA regulates for radiation and radioactivity.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpiaspub.epa.gov\/enviro\/efservice\/"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "rad_regulatory_prog": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CIT_REF_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ENFORCEMENT_AGENCY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "OPERATING_ORGANIZATION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "OVERSIGHT_AGENCY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PROG_FAC_STATUS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PROG_FAC_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RAD_CHANGE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RAD_SYS_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SEC_CIT_REF_FLAG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUBPART_ID": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "rad_facility": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CITY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONGRESSIONAL_DIST_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "COUNTRY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "COUNTY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EF_PGM_SOURCE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EPA_REGION_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FACILITY_REGISTRY_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FED_FACILITY_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FRS_UPDATE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HUC_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOCATION_ADDRESS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "POSTAL_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PRIMARY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RAD_CHANGE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RAD_SYS_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_DATA": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STATE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STATE_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUPPLEMENTAL_LOCATION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TRIBAL_LAND_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TRIBAL_LAND_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "URL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "URL_LINK_DESCRIPTION": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "rad_geo_location": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "COORDINATE_DATA_SOURCE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DATA_COLLECTION_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EF_PGM_SOURCE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "GEOMETRIC_TYPE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HORIZONTAL_ACCURACY_MEASURE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HORIZONTAL_COLLECT_METHOD_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HORIZONTAL_REFER_DATUM_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LATITUDE_MEASURE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOCATION_COMMENTS_TEXT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LONGITUDE_MEASURE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RAD_CHANGE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RAD_OVERRIDE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RAD_SYS_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REFERENCE_POINT_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SOURCE_MAP_SCALE_NUMBER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUB_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUB_TYPE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "VERTICAL_ACCURACY_MEASURE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "VERTICAL_COLLECT_METHOD_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "VERTICAL_MEASURE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "VERTICAL_REFERENCE_DATA_CODE": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "rad_regulation": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CFR_PART": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CFR_SUBPART": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CIT_REF_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CRF_SECTION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PART_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RAD_CHANGE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REG_TITLE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SECTION_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STATUTE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STAT_ACRONYM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUBPART_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TITLE_ID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "URL": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "rad_facility_type": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CIT_REF_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FACILITY_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SEC_CIT_REF_FLAG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SUBPART_ID": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            }
+        }
+    }
+}
