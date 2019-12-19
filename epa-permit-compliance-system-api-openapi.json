@@ -1,0 +1,1158 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v1",
+        "title": "EPA Permit Compliance System API",
+        "description": "The Permit Compliance System provides information about facilities that discharge pollutants into the waterway",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpiaspub.epa.gov\/enviro\/efservice\/"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "pcs_permit_facility": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "APPL_RECEIVED_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CITY_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CITY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CODE_OF_ACCURACY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "COGN_OFFICIAL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "COGN_OFFICIAL_TELE_NUMBER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "COUNTY_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "COUNTY_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CURR_YEAR_AUTO_QNCR_STAT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CURR_YEAR_MANL_QNCR_STAT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DATUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DESCRIPT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DRAFT_PERM_PUB_NOTIF_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FEDERAL_GRANT_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FINAL_LIMITS_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FLOW_RATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INACTIVE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INACTIVE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INDUSTRY_CLASS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LATITUDE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOCATION_CITY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOCATION_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOCATION_STATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOCATION_STREET_1": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOCATION_STREET_2": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOCATION_TELEPHONE_NUMBER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LOCATION_ZIP_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LONGITUDE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MAILING_CITY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MAILING_NAME": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MAILING_STATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MAILING_STREET_1": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MAILING_STREET_2": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MAILING_ZIP_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MAJOR_DISCHARGE_INDICATOR": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "METHOD": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MILEAGE_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NAME_1": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NAME_2": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NMP_FINAL_SCHED": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NMP_FINAN_STAT_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NMP_QUARTER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NPDES": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ORIGINL_PERMIT_ISSUE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PERMIT_EXPIRED_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PERMIT_ISSUED_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PRETREATMENT_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PREV_YEAR_AUTO_QNCR_STAT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PREV_YEAR_MANL_QNCR_STAT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RECEIVING_WATERS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RECVNG_STREAM_CLASS_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REGION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RIVER_BASIN": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SCALE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SIC_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STREAM_SEGMENT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TYPE_OF_OWNERSHIP": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TYPE_OF_PERMIT_ISSUED": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "USGS_HYDRO_BASIN_CODE": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "pcs_code_desc": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DESCRIPT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TABLE_ID": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "pcs_permit_event": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EVENT_ACTUAL_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NPDES": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TRACKING_EVENT_CODE": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "pcs_pretreatment_perf_summary": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CIVIL_OR_CRIM_JUDICIAL_ACTS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "IUS_THAT_PAID_PENALTIES": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NOVS_AND_AOS_AGAINST_SIUS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NPDES": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REPORT_END_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REPORT_START_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SIUS_IN_SNC_COMPL_SCHED": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SIUS_WITH_PUBLISHED_VIOLS": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "pcs_evidentiary_hearing_event": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EVENT_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EVENT_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NPDES": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "pcs_inspection": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INSP_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INSP_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INSP_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NPDES": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "pcs_pci_audit": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ADOPT_LOCAL_LIMITS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INSP_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INSP_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NPDES": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PERMIT_MOD_FOR_PRETR_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SLUDGE_DISPOSAL_METHOD": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TECH_EVAL_LOCAL_LIMIT": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "pcs_industrial_user_info": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CATEGORICAL_INDUSTRIAL_USERS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INSP_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INSP_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NPDES": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SIGNIFICANT_INDUSTRIAL_USERS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SIUS_IN_SNC_WITH_PRETR_STDS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SIUS_NOT_INSP_SAMPLED": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SIUS_SNC_SELF_MONITOR": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SIUS_SNC_SELF_NOT_INSP": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SIUS_WITHOUT_CTL_MECHANISM": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "pcs_cmpl_schd": {
+                "type": "object",
+                "properties": {
+                    "filler": {
+                        "description": "until we have model",
+                        "type": "string"
+                    }
+                }
+            },
+            "pcs_cmpl_schd_viol": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CMPL_SCHD_DATA_SRC_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CMPL_SCHD_EVT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CMPL_SCHD_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CMPL_SCHD_VIOL_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CMPL_SCHD_VIOL_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CS_RNC_DETECT_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CS_RNC_DETECT_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CS_RNC_RESOL_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CS_RNC_RESOL_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NPDES": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "pcs_sludge": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ANNUAL_DRY_SLUDGE_PROD": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HANDLER_CITY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HANDLER_STATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HANDLER_STREET_1": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HANDLER_STREET_2": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HANDLER_ZIP_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NPDES": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SLUDGE_CLASS_FACILITY_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SLUDGE_COMMERCIAL_HANDLER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SLUDGE_FACILITY_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SLUDGE_RELATED_PERMIT_NUM": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "pcs_single_event_viol": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NPDES": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "QNCR_RNC_DET_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "QNCR_RNC_DET_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "QNCR_RNC_RESOL_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "QNCR_RNC_RESOL_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SINGLE_EVENT_VIOL_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SINGLE_EVENT_VIOL_DATE": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "pcs_enfor_action": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EA_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EA_DATA_SRC_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EA_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EA_DOCKET_NUMBER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EA_RESP_DUE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EA_STAT_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EA_STAT_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EA_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NPDES": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "pcs_admin_penalty_order": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ADMINISTRATIVE_PENALTY_CLASS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CLASS_II_APPEAL_FILED": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ENFOR_ACTION_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ENFOR_ACTION_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ENFOR_ACTION_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FINAL_ORDER_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "HEARING_REQUEST": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "JUDICIAL_APPEAL_FILED_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NPDES": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PENALTY_AMOUNT_ASSESSED": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PENALTY_COLLECTED_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PROPOSED_ORDER_ISSUED_DATE": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "pcs_pipe_sched": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DISCHARGE_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "EPA_SUBMISSION_UNITS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FINAL_LIMITS_END_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FINAL_LIMITS_START_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INIT_EPA_SUBMISSION_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INIT_LIMITS_END_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INIT_LIMITS_START_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INIT_RPT_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INIT_STATE_SUBMISSION_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INTERIM_LIMITS_END_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "INTERIM_LIMITS_START_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NPDES": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "OUTFALL_TYPE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PIPE_DESC": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PIPE_INACTIVE_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PIPE_INACTIVE_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PIPE_SET_QUALIFIER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REPORTING_UNITS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REPORT_DESIG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STATE_SUBMISSION_UNITS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UNITS_IN_EPA_SUBM_PERIOD": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UNITS_IN_RPT_PERIOD": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UNITS_IN_STATE_SUBM_PERIOD": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "pcs_effl_lim": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CHANGE_OF_LIMIT_STAT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONTESTED_PARAM_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DISCHARGE_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DOCKET_NUMBER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LIMIT_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MODIF_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MODIF_PERIOD_END_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MODIF_PERIOD_START_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MONITORING_LOC": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NPDES": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PARAM_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PIPE_SET_QUALIFIER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REPORT_DESIG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SEASON_NUM": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "pcs_effl_lim_concentr": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONC_AVG_LIMIT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONC_AVG_LIM_STAT_BASE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONC_MAX_LIMIT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONC_MAX_LIM_STAT_BASE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONC_MIN_LIMIT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONC_MIN_LIM_STAT_BASE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONC_UNIT_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DISCHARGE_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LIMIT_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MODIF_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MONITORING_LOC": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NPDES": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PARAM_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PIPE_SET_QUALIFIER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REPORT_DESIG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SEASON_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STAT_LIM_AVG_OVERRIDE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STAT_LIM_MIN_OVERRIDE": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "pcs_dmr_measurement": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONCENTRATION_UNIT_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONCENTR_AVG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONCENTR_MAX": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CONCENTR_MIN": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DISCHARGE_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LIMIT_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MEAS_VIOL_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MODIF_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MONITORING_LOC": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MONITORING_PERIOD_END_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NO_DISCHARGE_IND": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NPDES": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PARAM_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PIPE_SET_QUALIFIER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "QNCR_MV_DET_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "QNCR_MV_DET_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "QNCR_MV_RESOL_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "QNCR_MV_RESOL_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "QTY_AVG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "QTY_MAX": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "QUANTITY_UNIT_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REPORT_DESIG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SEASON_NUM": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "pcs_effl_lim_qty": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "DISCHARGE_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "LIMIT_TYPE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MODIF_NUM": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "MONITORING_LOC": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NPDES": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PARAM_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PIPE_SET_QUALIFIER": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "QTY_AVG_LIMIT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "QTY_AVG_LIM_STAT_BASE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "QTY_MAX_LIMIT": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "QTY_MAX_LIM_STAT_BASE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "QTY_UNIT_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "REPORT_DESIG": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "SEASON_NUM": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "pcs_permit_npid": {
+                "type": "object",
+                "properties": {
+                    "filler": {
+                        "description": "until we have model",
+                        "type": "string"
+                    }
+                }
+            },
+            "pcs_pipe_sched_lat_log": {
+                "type": "object",
+                "properties": {
+                    "filler": {
+                        "description": "until we have model",
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
