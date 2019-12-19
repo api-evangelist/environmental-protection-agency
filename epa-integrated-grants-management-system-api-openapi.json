@@ -1,0 +1,139 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v1",
+        "title": "EPA Integrated Grants Management System API",
+        "description": "Integrated Grants Management System provides information used to track, award, administer, and monitor grants.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpiaspub.epa.gov\/enviro\/efservice\/"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "ogd_ef_grant_sum_rpt": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "AWARD_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CUMULATIVE_AWARD": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "GRANT_FAMILY": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "GRANT_FAMILY_SEQ": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "NUMBER_OF_AMENDMENTS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PROJ_BEG_DATE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "PROJ_END_DATE": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "ogd_ef_grant_drpt_cfda": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FK_CFDA_SEQ": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FK_GRANT_SEQ": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "ogd_cfda": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CFDA_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CFDA_DESCRIPTION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "CFDA_SEQ": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "ogd_ef_grant_drpt_sa": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FK_GRANT_SEQ": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "FK_STAT_AUTH_SEQ": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "ogd_stat_authority": {
+                "type": "object",
+                "properties": {
+                    "": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STAT_AUTH_CODE": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STAT_AUTH_DESCRIPTION": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "STAT_AUTH_SEQ": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "ogd_ef_grant_dt": {
+                "type": "object",
+                "properties": {
+                    "filler": {
+                        "description": "until we have model",
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
