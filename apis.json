@@ -6,8 +6,8 @@
         "api provider",
         "have api"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -21,11 +21,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/epa-air-facility-system-afs-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-air-facility-system-afs-api-openapi.json"
                 },
                 {
                     "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-air-facility-system-afs-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-air-facility-system-afs-api-postman-collection.json"
                 }
             ]
         },
@@ -39,11 +43,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/epa-biennial-report-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-biennial-report-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-biennial-report-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-biennial-report-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-biennial-report-api-postman-collection.json"
                 }
             ]
         },
@@ -57,11 +65,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/epa-comprehensive-environmental-response-compensation-and-liability-information-system-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-comprehensive-environmental-response-compensation-and-liability-information-system-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-comprehensive-environmental-response-compensation-and-liability-information-system-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-comprehensive-environmental-response-compensation-and-liability-information-system-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-comprehensive-environmental-response-compensation-and-liability-information-system-api-postman-collection.json"
                 }
             ]
         },
@@ -75,11 +87,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/epa-facility-registry-system-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-facility-registry-system-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-facility-registry-system-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-facility-registry-system-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-facility-registry-system-api-postman-collection.json"
                 }
             ]
         },
@@ -93,11 +109,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/epa-greenhouse-gas-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-greenhouse-gas-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-greenhouse-gas-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-greenhouse-gas-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-greenhouse-gas-api-postman-collection.json"
                 }
             ]
         },
@@ -111,11 +131,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/epa-integrated-grants-management-system-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-integrated-grants-management-system-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-integrated-grants-management-system-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-integrated-grants-management-system-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-integrated-grants-management-system-api-postman-collection.json"
                 }
             ]
         },
@@ -129,11 +153,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/epa-locational-information-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-locational-information-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-locational-information-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-locational-information-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-locational-information-api-postman-collection.json"
                 }
             ]
         },
@@ -147,11 +175,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/epa-permit-compliance-system-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-permit-compliance-system-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-permit-compliance-system-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-permit-compliance-system-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-permit-compliance-system-api-postman-collection.json"
                 }
             ]
         },
@@ -165,11 +197,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/epa-radiation-ambient-monitoring-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-radiation-ambient-monitoring-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-radiation-ambient-monitoring-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-radiation-ambient-monitoring-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-radiation-ambient-monitoring-api-postman-collection.json"
                 }
             ]
         },
@@ -183,11 +219,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/epa-radiation-information-database-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-radiation-information-database-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-radiation-information-database-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-radiation-information-database-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-radiation-information-database-api-postman-collection.json"
                 }
             ]
         },
@@ -201,11 +241,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/epa-resource-conservation-and-recovery-act-information-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-resource-conservation-and-recovery-act-information-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-resource-conservation-and-recovery-act-information-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-resource-conservation-and-recovery-act-information-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-resource-conservation-and-recovery-act-information-api-postman-collection.json"
                 }
             ]
         },
@@ -219,11 +263,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/epa-safe-drinking-water-information-system-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-safe-drinking-water-information-system-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-safe-drinking-water-information-system-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-safe-drinking-water-information-system-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-safe-drinking-water-information-system-api-postman-collection.json"
                 }
             ]
         },
@@ -237,11 +285,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/epa-toxics-release-inventory-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-toxics-release-inventory-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/epa-toxics-release-inventory-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-toxics-release-inventory-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/epa-toxics-release-inventory-api-postman-collection.json"
                 }
             ]
         },
@@ -255,13 +307,21 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/environmental-protection-agency-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/environmental-protection-agency-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/environmental-protection-agency\/master\/environmental-protection-agency-postman-collection.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Base URL",
             "url": "iaspub.epa.gov"
