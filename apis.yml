@@ -5,8 +5,7 @@ url: >2-
 apis:
   - aid: environmental-protection-agency:environmental-protection-agency
     name: Environmental Protection Agency
-    tags:
-      - API
+    tags: []
     humanURL: https://www.epa.gov/enviro/envirofacts-data-service-api
     properties:
       - url: https://www.epa.gov/enviro/envirofacts-data-service-api
@@ -19,8 +18,8 @@ apis:
       United States.
 name: Environmental Protection Agency
 tags:
-  - Federal Government
   - Environment
+  - Federal Government
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
