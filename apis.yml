@@ -1,5 +1,5 @@
 aid: environmental-protection-agency
-url: >-
+url: >2-
 
   https://raw.githubusercontent.com/api-evangelist/environmental-protection-agency/refs/heads/main/apis.yml
 apis:
@@ -11,13 +11,12 @@ apis:
     properties:
       - url: https://www.epa.gov/enviro/envirofacts-data-service-api
         type: Documentation
-    description: |-
-
-      Envirofacts provides a single point of access to U.S. EPA environmental
-      data contained in U.S. EPA databases. Interested parties from State and
-      local governments, EPA or other Federal agencies, or individuals can
-      search for information about environmental activities that may affect air,
-      water, and land anywhere in the United States.
+    description: >-
+      Envirofacts provides a single point of access to U.S. EPA environmental data
+      contained in U.S. EPA databases. Interested parties from State and local governments,
+      EPA or other Federal agencies, or individuals can search for information about
+      environmental activities that may affect air, water, and land anywhere in the
+      United States.
 name: Environmental Protection Agency
 tags:
   - Federal Government
@@ -28,12 +27,11 @@ access: 3rd-Party
 created: '2024-12-03'
 modified: '2026-03-16'
 position: Consumer
-description: |-
-  Envirofacts provides a single point of access to U.S. EPA environmental data
-  contained in U.S. EPA databases. Interested parties from State and local
-  governments, EPA or other Federal agencies, or individuals can search for
-  information about environmental activities that may affect air, water, and
-  land anywhere in the United States.
+description: >-
+  Envirofacts provides a single point of access to U.S. EPA environmental data contained
+  in U.S. EPA databases. Interested parties from State and local governments, EPA
+  or other Federal agencies, or individuals can search for information about environmental
+  activities that may affect air, water, and land anywhere in the United States.
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
