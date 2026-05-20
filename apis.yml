@@ -87,6 +87,10 @@ apis:
       - type: Documentation
         url: https://echo.epa.gov/tools/web-services
 common:
+  - type: GitHubOrganization
+    url: https://github.com/usepa
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/us-epa
   - type: Website
     url: https://www.epa.gov/
   - type: Developer Central
