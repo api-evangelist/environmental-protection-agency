@@ -1,12 +1,8 @@
 # Environmental Protection Agency (environmental-protection-agency)
 
-The U.S. Environmental Protection Agency (EPA) provides multiple public
-data APIs covering environmental records, air quality monitoring, UV
-forecasts, and internal data holdings. These services enable State and
-local governments, federal agencies, researchers, and the public to
-access environmental data about air, water, and land.
+The U.S. Environmental Protection Agency (EPA) provides multiple public data APIs covering environmental records, air quality monitoring, UV forecasts, and internal data holdings. These services enable State and local governments, federal agencies, researchers, and the public to access environmental data about air, water, and land.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/environmental-protection-agency/refs/heads/main/apis.yml)
+**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/environmental-protection-agency/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/environmental-protection-agency/refs/heads/main/apis.yml)
 
 ## Scope
 
@@ -30,14 +26,10 @@ access environmental data about air, water, and land.
 
 ### EPA Envirofacts Data Service API
 
-Envirofacts provides a single point of access to U.S. EPA environmental
-data contained in U.S. EPA databases. The RESTful Data Service API
-returns output in JSON, CSV, Excel, HTML, JSONP, Parquet, PDF, or XML
-formats and supports queries across any Envirofacts table.
+Envirofacts provides a single point of access to U.S. EPA environmental data contained in U.S. EPA databases. The RESTful Data Service API returns output in JSON, CSV, Excel, HTML, JSONP, Parquet, PDF, or XML formats and supports queries across any Envirofacts table.
 
-**Human URL:** [https://www.epa.gov/enviro/envirofacts-data-service-api](https://www.epa.gov/enviro/envirofacts-data-service-api)
-
-**Base URL:** [https://data.epa.gov/efservice/](https://data.epa.gov/efservice/)
+- **Human URL:** [https://www.epa.gov/enviro/envirofacts-data-service-api](https://www.epa.gov/enviro/envirofacts-data-service-api)
+- **Base URL:** `https://data.epa.gov/efservice/`
 
 #### Tags
 
@@ -47,19 +39,16 @@ formats and supports queries across any Envirofacts table.
 #### Properties
 
 - [Documentation](https://www.epa.gov/enviro/envirofacts-data-service-api)
-- [Web Services](https://www.epa.gov/enviro/web-services)
+- [Web  Services](https://www.epa.gov/enviro/web-services)
+- [Postman Collection](collections/environmental-protection-agency.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
+- [Open Collection](collections/environmental-protection-agency.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
 
 ### EPA Air Quality System API
 
-The EPA Air Quality System (AQS) API provides programmatic access to
-ambient air pollution data collected by the EPA, state, local, and
-tribal air pollution control agencies, including hourly sample data,
-daily/quarterly/annual summaries, monitor information, and quality
-assurance data. JSON response format with API key authentication.
+The EPA Air Quality System (AQS) API provides programmatic access to ambient air pollution data collected by the EPA, state, local, and tribal air pollution control agencies, including hourly sample data, daily/quarterly/annual summaries, monitor information, and quality assurance data. JSON response format with API key authentication.
 
-**Human URL:** [https://aqs.epa.gov/aqsweb/documents/data_api.html](https://aqs.epa.gov/aqsweb/documents/data_api.html)
-
-**Base URL:** [https://aqs.epa.gov/data/api](https://aqs.epa.gov/data/api)
+- **Human URL:** [https://aqs.epa.gov/aqsweb/documents/data_api.html](https://aqs.epa.gov/aqsweb/documents/data_api.html)
+- **Base URL:** `https://aqs.epa.gov/data/api`
 
 #### Tags
 
@@ -70,16 +59,15 @@ assurance data. JSON response format with API key authentication.
 
 - [Documentation](https://aqs.epa.gov/aqsweb/documents/data_api.html)
 - [Sign Up](https://aqs.epa.gov/data/api/signup)
+- [Postman Collection](collections/environmental-protection-agency.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
+- [Open Collection](collections/environmental-protection-agency.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
 
 ### EPA UV Index API
 
-The EPA UV Index API provides hourly and daily ultraviolet radiation
-forecasts by ZIP code or city/state. Output is available in XML, JSON,
-Excel, and CSV formats.
+The EPA UV Index API provides hourly and daily ultraviolet radiation forecasts by ZIP code or city/state. Output is available in XML, JSON, Excel, and CSV formats.
 
-**Human URL:** [https://www.epa.gov/enviro/web-services](https://www.epa.gov/enviro/web-services)
-
-**Base URL:** [https://data.epa.gov/efservice/getEnvirofactsUVHOURLY/](https://data.epa.gov/efservice/getEnvirofactsUVHOURLY/)
+- **Human URL:** [https://www.epa.gov/enviro/web-services](https://www.epa.gov/enviro/web-services)
+- **Base URL:** `https://data.epa.gov/efservice/getEnvirofactsUVHOURLY/`
 
 #### Tags
 
@@ -89,17 +77,15 @@ Excel, and CSV formats.
 #### Properties
 
 - [Documentation](https://www.epa.gov/enviro/web-services)
+- [Postman Collection](collections/environmental-protection-agency.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
+- [Open Collection](collections/environmental-protection-agency.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
 
 ### EPA ECHO Compliance and Enforcement API
 
-Enforcement and Compliance History Online (ECHO) provides public
-access to compliance and enforcement information for EPA-regulated
-facilities nationwide. The ECHO web services API supports facility
-searches, compliance reports, and enforcement case lookups.
+Enforcement and Compliance History Online (ECHO) provides public access to compliance and enforcement information for EPA-regulated facilities nationwide. The ECHO web services API supports facility searches, compliance reports, and enforcement case lookups.
 
-**Human URL:** [https://echo.epa.gov/tools/web-services](https://echo.epa.gov/tools/web-services)
-
-**Base URL:** [https://echodata.epa.gov/echo/](https://echodata.epa.gov/echo/)
+- **Human URL:** [https://echo.epa.gov/tools/web-services](https://echo.epa.gov/tools/web-services)
+- **Base URL:** `https://echodata.epa.gov/echo/`
 
 #### Tags
 
@@ -110,16 +96,19 @@ searches, compliance reports, and enforcement case lookups.
 #### Properties
 
 - [Documentation](https://echo.epa.gov/tools/web-services)
+- [Postman Collection](collections/environmental-protection-agency.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
+- [Open Collection](collections/environmental-protection-agency.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
 
 ## Common Properties
 
+- [GitHub Organization](https://github.com/usepa)
+- [LinkedIn](https://www.linkedin.com/company/us-epa)
 - [Website](https://www.epa.gov/)
-- [Developer Central](https://www.epa.gov/developers)
-- [Web Services](https://www.epa.gov/enviro/web-services)
-- [Open Data](https://www.data.gov/)
+- [Developer  Central](https://www.epa.gov/developers)
+- [Web  Services](https://www.epa.gov/enviro/web-services)
+- [Open  Data](https://www.data.gov/)
 
 ## Maintainers
 
 **FN:** Kin Lane
-
 **Email:** kin@apievangelist.com
