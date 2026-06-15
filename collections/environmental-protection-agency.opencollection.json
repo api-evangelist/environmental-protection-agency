@@ -1,0 +1,192 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "EPA Envirofacts Data Service API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Envirofacts",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Query an Envirofacts table",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://data.epa.gov/efservice/:table/:format",
+            "params": [
+              {
+                "name": "table",
+                "value": "",
+                "type": "path",
+                "description": "Envirofacts schema.table name (e.g. `sems.envirofacts_site`)."
+              },
+              {
+                "name": "format",
+                "value": "",
+                "type": "path",
+                "description": "Output format."
+              }
+            ]
+          },
+          "docs": "Retrieve rows from an Envirofacts table. The dynamic path supports filters (e.g. `state_code/equals/CT`), table joins, pagination (`<first>:<last>`), and sort directives."
+        },
+        {
+          "info": {
+            "name": "Query an Envirofacts table with a column filter",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://data.epa.gov/efservice/:table/:column/:operator/:value/:format",
+            "params": [
+              {
+                "name": "table",
+                "value": "",
+                "type": "path"
+              },
+              {
+                "name": "column",
+                "value": "",
+                "type": "path"
+              },
+              {
+                "name": "operator",
+                "value": "",
+                "type": "path"
+              },
+              {
+                "name": "value",
+                "value": "",
+                "type": "path"
+              },
+              {
+                "name": "format",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Query an Envirofacts table with a column filter"
+        }
+      ]
+    },
+    {
+      "info": {
+        "name": "UVIndex",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Hourly UV index forecast for a ZIP code",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://data.epa.gov/dmapservice/getEnvirofactsUVHOURLY/ZIP/:zip/:format",
+            "params": [
+              {
+                "name": "zip",
+                "value": "",
+                "type": "path"
+              },
+              {
+                "name": "format",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Hourly UV index forecast for a ZIP code"
+        },
+        {
+          "info": {
+            "name": "Hourly UV index forecast for a city and state",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://data.epa.gov/dmapservice/getEnvirofactsUVHOURLY/CITY/:city/STATE/:state/:format",
+            "params": [
+              {
+                "name": "city",
+                "value": "",
+                "type": "path"
+              },
+              {
+                "name": "state",
+                "value": "",
+                "type": "path",
+                "description": "Two-letter state code (e.g. `CT`)."
+              },
+              {
+                "name": "format",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Hourly UV index forecast for a city and state"
+        },
+        {
+          "info": {
+            "name": "Daily UV index forecast for a ZIP code",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://data.epa.gov/dmapservice/getEnvirofactsUVDAILY/ZIP/:zip/:format",
+            "params": [
+              {
+                "name": "zip",
+                "value": "",
+                "type": "path"
+              },
+              {
+                "name": "format",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Daily UV index forecast for a ZIP code"
+        },
+        {
+          "info": {
+            "name": "Daily UV index forecast for a city and state",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://data.epa.gov/dmapservice/getEnvirofactsUVDAILY/CITY/:city/STATE/:state/:format",
+            "params": [
+              {
+                "name": "city",
+                "value": "",
+                "type": "path"
+              },
+              {
+                "name": "state",
+                "value": "",
+                "type": "path"
+              },
+              {
+                "name": "format",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Daily UV index forecast for a city and state"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
