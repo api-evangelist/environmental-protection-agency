@@ -54,7 +54,7 @@ apis:
     properties:
       - type: Documentation
         url: https://aqs.epa.gov/aqsweb/documents/data_api.html
-      - type: SignUp
+      - type: Signup
         url: https://aqs.epa.gov/data/api/signup
   - aid: environmental-protection-agency:uv-index
     name: EPA UV Index API
