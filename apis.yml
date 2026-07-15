@@ -87,6 +87,8 @@ apis:
       - type: Documentation
         url: https://echo.epa.gov/tools/web-services
 common:
+  - type: AgenticAccess
+    url: agentic-access/environmental-protection-agency-agentic-access.yml
   - type: DomainSecurity
     url: security/environmental-protection-agency-domain-security.yml
   - type: GitHubOrganization
