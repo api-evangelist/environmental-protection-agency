@@ -1,0 +1,108 @@
+openapi: 3.1.0
+info:
+  title: EPA Data Service Envirofacts API
+  version: 1.0.0
+  description: Public REST data service from the U.S. Environmental Protection Agency. Provides programmatic access to Envirofacts tables (environmental records across air, water, land) and to the UV Index forecast (hourly and daily) via simple, dynamic path-based queries. No authentication is required. Best-effort spec derived from publicly documented surfaces; not exhaustive.
+  contact:
+    name: EPA Envirofacts
+    url: https://www.epa.gov/enviro/envirofacts-data-service-api
+  license:
+    name: U.S. Public Domain
+servers:
+- url: https://data.epa.gov
+  description: EPA data services production base URL
+tags:
+- name: Envirofacts
+paths:
+  /efservice/{table}/{format}:
+    get:
+      tags:
+      - Envirofacts
+      summary: Query an Envirofacts table
+      operationId: queryEnvirofactsTable
+      description: Retrieve rows from an Envirofacts table. The dynamic path supports filters (e.g. `state_code/equals/CT`), table joins, pagination (`<first>:<last>`), and sort directives.
+      parameters:
+      - in: path
+        name: table
+        required: true
+        description: Envirofacts schema.table name (e.g. `sems.envirofacts_site`).
+        schema:
+          type: string
+          example: sems.envirofacts_site
+      - in: path
+        name: format
+        required: true
+        description: Output format.
+        schema:
+          type: string
+          enum:
+          - JSON
+          - CSV
+          - EXCEL
+          - XML
+          - HTML
+          - JSONP
+          - PARQUET
+          - PDF
+      responses:
+        '200':
+          description: Matching rows
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+  /efservice/{table}/{column}/{operator}/{value}/{format}:
+    get:
+      tags:
+      - Envirofacts
+      summary: Query an Envirofacts table with a column filter
+      operationId: queryEnvirofactsFiltered
+      parameters:
+      - in: path
+        name: table
+        required: true
+        schema:
+          type: string
+      - in: path
+        name: column
+        required: true
+        schema:
+          type: string
+      - in: path
+        name: operator
+        required: true
+        schema:
+          type: string
+          enum:
+          - equals
+          - beginning
+          - containing
+          - <
+          - <=
+          - '>'
+          - '>='
+          - '!='
+      - in: path
+        name: value
+        required: true
+        schema:
+          type: string
+      - in: path
+        name: format
+        required: true
+        schema:
+          type: string
+          enum:
+          - JSON
+          - CSV
+          - EXCEL
+          - XML
+          - HTML
+          - JSONP
+          - PARQUET
+          - PDF
+      responses:
+        '200':
+          description: Matching rows
