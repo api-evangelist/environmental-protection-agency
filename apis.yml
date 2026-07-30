@@ -7,7 +7,19 @@ description: >-
   local governments, federal agencies, researchers, and the public to
   access environmental data about air, water, and land.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/environmental-protection-agency.png
 tags:
   - Environment
   - Federal Government
@@ -21,71 +33,88 @@ specificationVersion: '0.19'
 position: Consumer
 access: 3rd-Party
 apis:
-  - aid: environmental-protection-agency:envirofacts
-    name: EPA Envirofacts Data Service API
-    description: >-
-      Envirofacts provides a single point of access to U.S. EPA environmental
-      data contained in U.S. EPA databases. The RESTful Data Service API
-      returns output in JSON, CSV, Excel, HTML, JSONP, Parquet, PDF, or XML
-      formats and supports queries across any Envirofacts table.
-    humanURL: https://www.epa.gov/enviro/envirofacts-data-service-api
-    baseURL: https://data.epa.gov/efservice/
-    tags:
-      - Environment
-      - Open Data
-    properties:
-      - type: Documentation
-        url: https://www.epa.gov/enviro/envirofacts-data-service-api
-      - type: Web Services
-        url: https://www.epa.gov/enviro/web-services
-  - aid: environmental-protection-agency:aqs
-    name: EPA Air Quality System API
-    description: >-
-      The EPA Air Quality System (AQS) API provides programmatic access to
-      ambient air pollution data collected by the EPA, state, local, and
-      tribal air pollution control agencies, including hourly sample data,
-      daily/quarterly/annual summaries, monitor information, and quality
-      assurance data. JSON response format with API key authentication.
-    humanURL: https://aqs.epa.gov/aqsweb/documents/data_api.html
-    baseURL: https://aqs.epa.gov/data/api
-    tags:
-      - Environment
-      - Air Quality
-    properties:
-      - type: Documentation
-        url: https://aqs.epa.gov/aqsweb/documents/data_api.html
-      - type: Signup
-        url: https://aqs.epa.gov/data/api/signup
-  - aid: environmental-protection-agency:uv-index
-    name: EPA UV Index API
-    description: >-
-      The EPA UV Index API provides hourly and daily ultraviolet radiation
-      forecasts by ZIP code or city/state. Output is available in XML,
-      JSON, Excel, and CSV formats.
-    humanURL: https://www.epa.gov/enviro/web-services
-    baseURL: https://data.epa.gov/efservice/getEnvirofactsUVHOURLY/
-    tags:
-      - Environment
-      - UV Index
-    properties:
-      - type: Documentation
-        url: https://www.epa.gov/enviro/web-services
-  - aid: environmental-protection-agency:echo
-    name: EPA ECHO Compliance and Enforcement API
-    description: >-
-      Enforcement and Compliance History Online (ECHO) provides public
-      access to compliance and enforcement information for EPA-regulated
-      facilities nationwide. The ECHO web services API supports facility
-      searches, compliance reports, and enforcement case lookups.
-    humanURL: https://echo.epa.gov/tools/web-services
-    baseURL: https://echodata.epa.gov/echo/
-    tags:
-      - Environment
-      - Compliance
-      - Enforcement
-    properties:
-      - type: Documentation
-        url: https://echo.epa.gov/tools/web-services
+- aid: environmental-protection-agency:envirofacts
+  name: EPA Envirofacts Data Service API
+  description: >-
+    Envirofacts provides a single point of access to U.S. EPA environmental data contained in U.S. EPA
+    databases. The RESTful Data Service API returns output in JSON, CSV, Excel, HTML, JSONP, Parquet,
+    PDF, or XML formats and supports queries across any Envirofacts table.
+  humanURL: https://www.epa.gov/enviro/envirofacts-data-service-api
+  baseURL: https://data.epa.gov/efservice/
+  tags:
+  - Environment
+  - Open Data
+  properties:
+  - type: Documentation
+    url: https://www.epa.gov/enviro/envirofacts-data-service-api
+  - type: Web Services
+    url: https://www.epa.gov/enviro/web-services
+- aid: environmental-protection-agency:aqs
+  name: EPA Air Quality System API
+  description: >-
+    The EPA Air Quality System (AQS) API provides programmatic access to ambient air pollution data collected
+    by the EPA, state, local, and tribal air pollution control agencies, including hourly sample data,
+    daily/quarterly/annual summaries, monitor information, and quality assurance data. JSON response format
+    with API key authentication.
+  humanURL: https://aqs.epa.gov/aqsweb/documents/data_api.html
+  baseURL: https://aqs.epa.gov/data/api
+  tags:
+  - Environment
+  - Air Quality
+  properties:
+  - type: Documentation
+    url: https://aqs.epa.gov/aqsweb/documents/data_api.html
+  - type: Signup
+    url: https://aqs.epa.gov/data/api/signup
+- aid: environmental-protection-agency:uv-index
+  name: EPA UV Index API
+  description: >-
+    The EPA UV Index API provides hourly and daily ultraviolet radiation forecasts by ZIP code or city/state.
+    Output is available in XML, JSON, Excel, and CSV formats.
+  humanURL: https://www.epa.gov/enviro/web-services
+  baseURL: https://data.epa.gov/efservice/getEnvirofactsUVHOURLY/
+  tags:
+  - Environment
+  - UV Index
+  properties:
+  - type: Documentation
+    url: https://www.epa.gov/enviro/web-services
+- aid: environmental-protection-agency:echo
+  name: EPA ECHO Compliance and Enforcement API
+  description: >-
+    Enforcement and Compliance History Online (ECHO) provides public access to compliance and enforcement
+    information for EPA-regulated facilities nationwide. The ECHO web services API supports facility searches,
+    compliance reports, and enforcement case lookups.
+  humanURL: https://echo.epa.gov/tools/web-services
+  baseURL: https://echodata.epa.gov/echo/
+  tags:
+  - Environment
+  - Compliance
+  - Enforcement
+  properties:
+  - type: Documentation
+    url: https://echo.epa.gov/tools/web-services
+- aid: environmental-protection-agency:environmental-protection-agency-envirofacts-api
+  name: Environmental Protection Agency Envirofacts API
+  description: >-
+    The Envirofacts API from Environmental Protection Agency — 2 operation(s) for envirofacts.
+  humanURL: https://www.epa.gov/enviro/envirofacts-data-service-api
+  baseURL: https://data.epa.gov/efservice/
+  tags:
+  - Envirofacts
+  properties:
+  - type: OpenAPI
+    url: openapi/environmental-protection-agency-envirofacts-api-openapi.yml
+- aid: environmental-protection-agency:environmental-protection-agency-uvindex-api
+  name: Environmental Protection Agency UVIndex API
+  description: The UVIndex API from Environmental Protection Agency — 4 operation(s) for uvindex.
+  humanURL: https://www.epa.gov/enviro/envirofacts-data-service-api
+  baseURL: https://data.epa.gov/efservice/
+  tags:
+  - UVIndex
+  properties:
+  - type: OpenAPI
+    url: openapi/environmental-protection-agency-uvindex-api-openapi.yml
 common:
   - type: AgenticAccess
     url: agentic-access/environmental-protection-agency-agentic-access.yml
