@@ -1,0 +1,16 @@
+{
+  "provider": "environmental-protection-agency",
+  "sources": [
+    "environmental-protection-agency-envirofacts-api-openapi.yml",
+    "environmental-protection-agency-uvindex-api-openapi.yml"
+  ],
+  "outputs": [
+    "environmental-protection-agency-envirofacts-api-openapi.yml",
+    "environmental-protection-agency-uvindex-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
