@@ -1,0 +1,464 @@
+{
+  "item": [
+    {
+      "id": "1b4ef324-e3a5-4a19-9876-6868d34a4d7a",
+      "name": "UVIndex",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "a3f6313a-93d4-4308-bb24-cb80a44933ec",
+          "name": "Hourly UV index forecast for a ZIP code",
+          "request": {
+            "name": "Hourly UV index forecast for a ZIP code",
+            "description": {},
+            "url": {
+              "path": [
+                "dmapservice",
+                "getEnvirofactsUVHOURLY",
+                "ZIP",
+                ":zip",
+                ":format"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "zip",
+                  "description": "(Required) "
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "format",
+                  "description": "(Required) "
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "84113fcf-8724-4aee-b2a0-0905c1fd4554",
+              "name": "Hourly UV index forecast",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "dmapservice",
+                    "getEnvirofactsUVHOURLY",
+                    "ZIP",
+                    ":zip",
+                    ":format"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "zip",
+                      "description": "(Required) "
+                    },
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "format",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "[\n  {\n    \"ORDER\": 6010,\n    \"ZIP\": \"string\",\n    \"DATE_TIME\": \"string\",\n    \"UV_VALUE\": 3293\n  },\n  {\n    \"ORDER\": 4025,\n    \"ZIP\": \"string\",\n    \"DATE_TIME\": \"string\",\n    \"UV_VALUE\": 5371\n  }\n]",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "47c8b054-423e-4013-8b51-81dc71d40405",
+          "name": "Hourly UV index forecast for a city and state",
+          "request": {
+            "name": "Hourly UV index forecast for a city and state",
+            "description": {},
+            "url": {
+              "path": [
+                "dmapservice",
+                "getEnvirofactsUVHOURLY",
+                "CITY",
+                ":city",
+                "STATE",
+                ":state",
+                ":format"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "city",
+                  "description": "(Required) "
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "state",
+                  "description": "(Required) Two-letter state code (e.g. `CT`)."
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "format",
+                  "description": "(Required) "
+                }
+              ]
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "deff8d30-191c-4d56-b024-0a0c7fe89915",
+              "name": "Hourly UV index forecast",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "dmapservice",
+                    "getEnvirofactsUVHOURLY",
+                    "CITY",
+                    ":city",
+                    "STATE",
+                    ":state",
+                    ":format"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "city",
+                      "description": "(Required) "
+                    },
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "state",
+                      "description": "(Required) Two-letter state code (e.g. `CT`)."
+                    },
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "format",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "f56739a7-e9ff-4a49-97c9-5a6fe50b3d1d",
+          "name": "Daily UV index forecast for a ZIP code",
+          "request": {
+            "name": "Daily UV index forecast for a ZIP code",
+            "description": {},
+            "url": {
+              "path": [
+                "dmapservice",
+                "getEnvirofactsUVDAILY",
+                "ZIP",
+                ":zip",
+                ":format"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "zip",
+                  "description": "(Required) "
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "format",
+                  "description": "(Required) "
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "4552f3de-9006-4146-a2da-4c84177b8b94",
+              "name": "Daily UV index forecast",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "dmapservice",
+                    "getEnvirofactsUVDAILY",
+                    "ZIP",
+                    ":zip",
+                    ":format"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "zip",
+                      "description": "(Required) "
+                    },
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "format",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "[\n  {\n    \"CITY\": \"string\",\n    \"STATE\": \"string\",\n    \"DATE\": \"string\",\n    \"UV_INDEX\": 9062,\n    \"UV_ALERT\": 9432\n  },\n  {\n    \"CITY\": \"string\",\n    \"STATE\": \"string\",\n    \"DATE\": \"string\",\n    \"UV_INDEX\": 9253,\n    \"UV_ALERT\": 2772\n  }\n]",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "4adefe15-6a8a-4fd9-85dd-341b31906ca8",
+          "name": "Daily UV index forecast for a city and state",
+          "request": {
+            "name": "Daily UV index forecast for a city and state",
+            "description": {},
+            "url": {
+              "path": [
+                "dmapservice",
+                "getEnvirofactsUVDAILY",
+                "CITY",
+                ":city",
+                "STATE",
+                ":state",
+                ":format"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "city",
+                  "description": "(Required) "
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "state",
+                  "description": "(Required) "
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "format",
+                  "description": "(Required) "
+                }
+              ]
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "f2cd26ed-e9fa-4ee7-b946-1516d598249c",
+              "name": "Daily UV index forecast",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "dmapservice",
+                    "getEnvirofactsUVDAILY",
+                    "CITY",
+                    ":city",
+                    "STATE",
+                    ":state",
+                    ":format"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "city",
+                      "description": "(Required) "
+                    },
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "state",
+                      "description": "(Required) "
+                    },
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "format",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://data.epa.gov",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "f0a0c16d-0910-4565-8ebb-4c8bf5515ac6",
+    "name": "EPA Data Service Envirofacts UVIndex API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Public REST data service from the U.S. Environmental Protection Agency. Provides programmatic access to Envirofacts tables (environmental records across air, water, land) and to the UV Index forecast (hourly and daily) via simple, dynamic path-based queries. No authentication is required. Best-effort spec derived from publicly documented surfaces; not exhaustive.\n\nContact Support:\n Name: EPA Envirofacts",
+      "type": "text/plain"
+    }
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "item": [
+    {
+      "id": "17ca3fda-c7b3-48ac-bf1d-6d9cdc5b4415",
+      "name": "Envirofacts",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "28786be5-b428-4c1d-bf51-f61e53f86ea8",
+          "name": "Query an Envirofacts table",
+          "request": {
+            "name": "Query an Envirofacts table",
+            "description": {
+              "content": "Retrieve rows from an Envirofacts table. The dynamic path supports filters (e.g. `state_code/equals/CT`), table joins, pagination (`<first>:<last>`), and sort directives.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "efservice",
+                ":table",
+                ":format"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "table",
+                  "description": "(Required) Envirofacts schema.table name (e.g. `sems.envirofacts_site`)."
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "format",
+                  "description": "(Required) Output format."
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "e76b4071-b96b-4e89-9aab-ecb94544b27b",
+              "name": "Matching rows",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "efservice",
+                    ":table",
+                    ":format"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "table",
+                      "description": "(Required) Envirofacts schema.table name (e.g. `sems.envirofacts_site`)."
+                    },
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "format",
+                      "description": "(Required) Output format."
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "[]",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "a424a42a-ec2f-4d85-82dd-5140e490b69d",
+          "name": "Query an Envirofacts table with a column filter",
+          "request": {
+            "name": "Query an Envirofacts table with a column filter",
+            "description": {},
+            "url": {
+              "path": [
+                "efservice",
+                ":table",
+                ":column",
+                ":operator",
+                ":value",
+                ":format"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "table",
+                  "description": "(Required) "
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "column",
+                  "description": "(Required) "
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "operator",
+                  "description": "(Required) "
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "value",
+                  "description": "(Required) "
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "format",
+                  "description": "(Required) "
+                }
+              ]
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "bbe55a00-af29-4ec3-9a4b-a706bd58e580",
+              "name": "Matching rows",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "efservice",
+                    ":table",
+                    ":column",
+                    ":operator",
+                    ":value",
+                    ":format"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "table",
+                      "description": "(Required) "
+                    },
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "column",
+                      "description": "(Required) "
+                    },
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "operator",
+                      "description": "(Required) "
+                    },
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "value",
+                      "description": "(Required) "
+                    },
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "format",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://data.epa.gov",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "6eab7f07-ca9a-459d-96bd-6d584acbc37c",
+    "name": "EPA Data Service Envirofacts API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Public REST data service from the U.S. Environmental Protection Agency. Provides programmatic access to Envirofacts tables (environmental records across air, water, land) and to the UV Index forecast (hourly and daily) via simple, dynamic path-based queries. No authentication is required. Best-effort spec derived from publicly documented surfaces; not exhaustive.\n\nContact Support:\n Name: EPA Envirofacts",
+      "type": "text/plain"
+    }
+  }
+}
