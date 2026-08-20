@@ -22,6 +22,11 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/environmental-protection-agency.png
 tags:
   - Environment
+  - Federal-Government
+  - Air Quality
+  - Open Data
+tags_raw:
+  - Environment
   - Federal Government
   - Air Quality
   - Open Data
@@ -111,6 +116,8 @@ apis:
   humanURL: https://www.epa.gov/enviro/envirofacts-data-service-api
   baseURL: https://data.epa.gov/efservice/
   tags:
+  - UV Index
+  tags_raw:
   - UVIndex
   properties:
   - type: OpenAPI
