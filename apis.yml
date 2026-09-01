@@ -128,7 +128,7 @@ apis:
   humanURL: https://www.epa.gov/enviro/envirofacts-data-service-api
   baseURL: https://data.epa.gov/efservice/
   tags:
-  - UVIndex
+  - UV Index
   tags_raw:
   - UVIndex
   properties:
