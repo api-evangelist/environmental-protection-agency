@@ -47,7 +47,7 @@ url: >-
 created: '2024-12-03'
 modified: '2026-04-28'
 specificationVersion: '0.23'
-position: Consumer
+position: Consuming
 access: 3rd-Party
 apis:
 - aid: environmental-protection-agency:envirofacts
